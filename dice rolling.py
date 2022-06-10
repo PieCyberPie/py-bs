@@ -3,7 +3,7 @@ import random
 dice_num = int(input("How many dice are we rolling? "))
 sides_num = int(input("How many sides on each die? "))
 
-print(f"Number of dices: {dice_num} \nNumber of sides: {sides_num} \n")
+print(f" \nNumber of dices: {dice_num} \nNumber of sides: {sides_num}")
 
 reroll = ""
 
