@@ -10,3 +10,8 @@ if isodd(user_input):
     print("it's odd!")
 else:
     print("it's not odd :(( ")
+
+def somenewbullshit():
+    print("is this new keybard?")
+    if(input()):
+        print("congratulations, bro")
