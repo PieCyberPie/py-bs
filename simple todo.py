@@ -25,7 +25,7 @@ while True:
             user_input += 1
         break
 
-    if  user_input.isnumeric():
+    if user_input.isnumeric():
         user_input = int(user_input)
         if user_input < len(todolist)+1:
             completedlist.append(todolist.pop(user_input-1))
