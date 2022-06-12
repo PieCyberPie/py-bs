@@ -12,7 +12,7 @@ peak["range"] = "Elk Mountains"
 
 peak["first_climbed"] = 1873
 
-peak["height"] = 14265
+peak["height"] = 14266
 
 peak["cell_reception"]["Verizon"] = "good"
 
