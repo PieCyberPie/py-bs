@@ -1,4 +1,5 @@
-print("""_________ _______         ______   _______            _       _________ _______  _________
+print("""
+_________ _______         ______   _______            _       _________ _______  _________
 \__   __/(  ___  )       (  __  \ (  ___  )          ( \      \__   __/(  ____ \ \__   __/
    ) (   | (   ) |       | (  \  )| (   ) |          | (         ) (   | (    \/    ) (   
    | |   | |   | | _____ | |   ) || |   | |          | |         | |   | (_____     | |   
@@ -7,12 +8,12 @@ print("""_________ _______         ______   _______            _       _________
    | |   | (___) |       | (__/  )| (___) |          | (____/\___) (___/\____) |    | |   
    )_(   (_______)       (______/ (_______)          (_______/\_______/\_______)    )_(   
                                                                                          """)
-
 user_input = ""
 todolist = []
 completedlist = []
 
 while True:
+
     user_input = input("Type in 'h for help: ")
 
     if user_input == 'h':
@@ -20,6 +21,7 @@ while True:
 
     if user_input == 'q':
         user_input = int(1)
+        print("Here ie your completed tasks: ")
         for task in completedlist:
             print(f"{user_input}. {task}")
             user_input += 1
