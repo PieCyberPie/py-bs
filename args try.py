@@ -1,10 +1,8 @@
-#not working
-
+#fixed by unpacking
 
 import random
 
 def average(*args):
-    print(args)
     total = 0
     for arg in args:
         total += arg
@@ -20,4 +18,5 @@ while idx < num_of_nums:
     nums.append(random.randint(0, 100))
     idx += 1
 
-average(nums)
+print(nums)
+print(average(*nums))
