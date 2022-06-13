@@ -17,5 +17,6 @@ idx = 0
 while idx < num_of_nums:
     nums.append(random.randint(0, 100))
     idx += 1
+
 print(nums)
 print(average(*nums))
